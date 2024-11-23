@@ -1,4 +1,5 @@
-# IITM_MLP_Project
+# Predict the Success of Bank telemarketing
+MLP Project T32024
 
 ## Overview
 - MLP Project T32024
