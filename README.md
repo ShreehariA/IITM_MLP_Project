@@ -54,3 +54,8 @@ sample_submission.csv - a sample submission file in the correct format
 
 ## Output variable (desired target):
 16 target: has the client subscribed a term deposit? (binary: "yes","no")
+
+## Links
+[kaggle competitions link](https://www.kaggle.com/competitions/predict-the-success-of-bank-telemarketing/overview).\
+[kaggle notebook link](https://www.kaggle.com/code/shreeharianbazhagan/23ds3000002-notebook-t32024).
+
