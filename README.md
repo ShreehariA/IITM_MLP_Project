@@ -56,6 +56,36 @@ sample_submission.csv - a sample submission file in the correct format
 ## Output variable (desired target):
 16 target: has the client subscribed a term deposit? (binary: "yes","no")
 
+## Notebook and Working
+The notebook for predicting the success of bank telemarketing follows a series of steps and methodologies to achieve the final prediction. Below are the details:
+
+### Data Preprocessing
+- **Loading Data**: The dataset is loaded into a pandas DataFrame.
+- **Handling Missing Values**: Missing values are handled by either filling them with appropriate values or dropping the rows/columns.
+- **Encoding Categorical Variables**: Categorical variables are encoded using techniques such as one-hot encoding or label encoding.
+- **Feature Scaling**: Numerical features are scaled using techniques like StandardScaler or MinMaxScaler.
+
+### Feature Engineering
+- **Creating New Features**: New features are created based on existing features to provide more information to the model.
+- **Feature Selection**: Important features are selected based on their correlation with the target variable or using feature importance from models.
+
+### Model Training
+- **Splitting Data**: The data is split into training and validation sets.
+- **Choosing Model**: Machine learning models such as Logistic Regression, Decision Trees, Random Forest, or Gradient Boosting are chosen.
+- **Training Model**: The chosen model is trained on the training data.
+- **Hyperparameter Tuning**: Hyperparameters of the model are tuned using techniques like GridSearchCV or RandomizedSearchCV.
+
+### Evaluation Metrics
+- **Accuracy**: The accuracy of the model is calculated on the validation set.
+- **F1 Score**: The F1 score (macro) is calculated to evaluate the model's performance.
+- **Confusion Matrix**: A confusion matrix is plotted to visualize the performance of the model.
+
+### Libraries and Tools
+- **Pandas**: For data manipulation and analysis.
+- **NumPy**: For numerical computations.
+- **Scikit-learn**: For machine learning algorithms and evaluation metrics.
+- **Matplotlib/Seaborn**: For data visualization.
+
 ## Links
 [kaggle competitions link](https://www.kaggle.com/competitions/predict-the-success-of-bank-telemarketing/overview).\
 [kaggle notebook link](https://www.kaggle.com/code/shreeharianbazhagan/23ds3000002-notebook-t32024).
