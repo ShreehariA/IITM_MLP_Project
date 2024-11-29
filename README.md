@@ -68,6 +68,7 @@ The notebook for predicting the success of bank telemarketing follows a series o
 ### Feature Engineering
 - **Creating New Features**: New features are created based on existing features to provide more information to the model.
 - **Feature Selection**: Important features are selected based on their correlation with the target variable or using feature importance from models.
+- **PCA**: Implemented Principal component Analysis for dimensionality reduction.
 
 ### Model Training
 - **Splitting Data**: The data is split into training and validation sets.
